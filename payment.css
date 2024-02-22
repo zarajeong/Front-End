@@ -1,0 +1,469 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid rgba(73, 42, 27, 0.2);
+  right: 80px;
+  left: 40px;
+  z-index: 99999;
+}
+
+.navbar .logo {
+  display: flex;
+  padding-left: 30px;
+}
+.navbar img {
+  width: 30px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar .logo-coffe img {
+  margin-right: 5rem;
+}
+
+.navbar .navbar-logo {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 5px;
+  color:black;
+}
+
+.navbar .navbar-nav {
+  margin-left: 15rem;
+  margin-right: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .navbar-nav a {
+  color: #4F5665;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.navbar .navbar-search {
+  padding: 0.5rem;
+  border-radius: 2%;
+  width: 15rem;
+}
+
+.navbar .navbar-search img {
+  width: 26px;
+  padding-left: 212px;
+}
+
+.navbar-inbox img {
+  width: 26px;
+  margin-left: -25px;
+  margin-right: -5px;
+  padding-right: 35px;
+}
+
+/*section payment*/
+.payment-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(file:///F:/Project/PY/payment-bg.png);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 9rem;
+  padding-bottom: 7rem;
+  gap: 5rem;
+}
+
+.payment-section .section-left {
+  padding: 1rem;
+  margin-top: -8rem;
+}
+
+.payment-section .section-left .check p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.payment-section .section-left .tabel-order {
+  padding: 3rem;
+  height: 510px;
+  background-color: white;
+  width: 21rem;
+  margin-top: 2rem;
+  border-radius: 18px;
+}
+
+.payment-section .section-left .tabel-order .kalimat-order p {
+  padding-top: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #362115;
+  text-align: center;
+}
+
+.bagian-pesanan {
+  margin-top: 3rem;
+  margin-left: -0.4rem;
+}
+
+.first-order,
+.second-order {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.decs-img1 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-left: -2.5rem;
+}
+
+.decs-img2 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-left: 0.1rem;
+}
+
+.fo{
+  padding-top: 0.5rem;
+}
+
+.bagian-pesanan .first-order p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-right: -0.4rem;
+}
+
+.payment-section .section-left .tabel-order .first-order h1 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+
+.payment-section .section-left .tabel-order .second-order h1 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: -0.1rem;
+  margin-right: -0.4rem;
+}
+
+.jumlah-harga {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+
+.label{
+  margin-left: -0.4rem;
+  color: #362115;
+}
+
+.harga{
+  margin-right: -0.4rem;
+  color: #362115;
+}
+
+.bagian-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-left: -0.4rem;
+  margin-right: -0.4rem;
+  color: #362115;
+}
+
+.section-right {
+  width: 25rem;
+  margin-top: 9rem;
+}
+
+.section-right .alamat .top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: -8rem;
+}
+
+.top-edit{
+  font-size: 16px;
+  padding-top: 0.7rem;
+  padding-right: 1.4rem;
+}
+
+.section-right .alamat .desc-address {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 18px;
+  font-size: 1rem;
+}
+
+.section-right .alamat .desc-address p span {
+  color: black;
+  font-weight: 600;
+}
+
+.payment-method .payment .top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.payment-method .payment .option {
+  padding: 2.1rem;
+  padding-top: 1.7rem;
+  background-color: white;
+  border-radius: 18px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.section-right button {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  width: 25rem;
+  border-radius: 18px;
+  background-color: #6a4029;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.card2{
+  background: #F47B0A;
+  border-radius: 5%;
+  margin-left: 0.3rem;
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+  height: 23px;
+  width: 20px;
+}
+
+.bank2{
+  background: #6A4029;
+  border-radius: 5%;
+  margin-left: 0.3rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  height: 23px;
+  width: 20px;
+}
+
+.cod2{
+  background: goldenrod;
+  border-radius: 5%;
+  margin-left: 0.3rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  height: 23px;
+  width: 20px;
+}
+
+.payment-method .payment .option .card .atm {
+  padding: 2rem;
+  background-color: black;
+}
+
+.payment-method .payment .option .card .bi {
+  padding: 2rem;
+  background-color: black;
+}
+
+.payment-method .payment .option .card .cod {
+  padding: 2rem;
+  background-color: black;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 4.5rem;
+  padding-left: 120px;
+  padding-right: 70px;
+  margin-bottom: auto;
+  position: auto;
+  background-color: #f8f8f8;
+}
+
+.logo-title {
+  display: flex;
+}
+
+.image-cofee {
+  width: 30px;
+  height: 33px;
+}
+
+.title-coffe {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.about {
+  width: 50%;
+  margin-top: 18px;
+  color: #4f5665;
+  font-size: 15px;
+  margin-bottom: 1.3rem;
+}
+
+.facebook-button {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffba33;
+  width: 23px;
+  height: 25px;
+  border-radius: 50%;
+  color: #6a4029;
+  border: 0.5px solid goldenrod;
+}
+
+.twitter-button {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffba33;
+  width: 23px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: -23px;
+  margin-left: 40px;
+  color: #6a4029;
+  border: 0.5px solid goldenrod;
+}
+
+.twitter-image {
+  margin-top: 1px;
+}
+
+.instagram-button {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffba33;
+  width: 23px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: -25px;
+  margin-left: 80px;
+  color: #6a4029;
+  border: 0.5px solid goldenrod;
+}
+
+.instagram-image {
+  margin-top: 5px;
+}
+
+.name-coffe {
+  color: #afb5c0;
+  margin-top: 21px;
+  margin-bottom: 4rem;
+}
+
+.product-container {
+  margin-left: -2rem;
+}
+
+.title-product {
+  margin-top: 15px;
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.product1 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+.product2 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product3 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product4 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product5 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product6 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product7 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product8 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product9 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.product10 {
+  margin-top: 15px;
+  list-style-type: none;
+  color: #4f5665;
+}
+
+.engage-container {
+  margin-left: 120px;
+}
+
+.title-engage {
+  margin-top: 15px;
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.list-engage {
+  margin-top: 20px;
+  color: #4f5665;
+}
